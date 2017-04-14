@@ -1,6 +1,8 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
+
+ /*--- bio ---*/
 var bio = {
     "name": "Ibrahim Alnamlah",
     "role": "IT Auditor",
@@ -39,7 +41,6 @@ var work = {
     ]
 };
 
-
 var education = {
   "schools":[
     {
@@ -60,10 +61,6 @@ var education = {
 		}
 	]
 };
-
-
-
-
 
 var projects = {
     "projects": [{
@@ -118,12 +115,6 @@ bio.display = function() {
 
 bio.display();
 
-
-
-
-
-
-
 work.display = function () {
     if (work.jobs.length > 0) {
 
@@ -149,7 +140,6 @@ work.display = function () {
 
 work.display();
 
-
 projects.display = function() {
     if (projects.projects.length > 0) {
         for (var i = 0; i < projects.projects.length; i++) {
@@ -173,7 +163,6 @@ projects.display = function() {
 };
 
 projects.display();
-
 
 education.display = function() {
     if (education.schools.length > 0 || education.onlineCourses.length > 0) {
